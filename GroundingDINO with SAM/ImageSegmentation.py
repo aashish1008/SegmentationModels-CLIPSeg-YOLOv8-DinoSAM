@@ -119,8 +119,10 @@ def image_segmentation(image_path, prompt, box_threshold, text_threshold, predic
             mask = masks[i][j]
             detection_with_mask = draw_mask(mask, np.array(detection_with_mask), random_color=True)
 
-    cv2.imshow("Image", detection_with_mask)
-    cv2.imwrite("ImageSeg_Outcome/segmented_image.jpeg", detection_with_mask)
+    out_frame = cv2.cvtColor(detection_with_mask, cv2.COLOR_BGR2RGB)
+
+    cv2.imshow("Image", out_frame)
+    cv2.imwrite("ImageSeg_Outcome/segmented_image.jpeg", out_frame)
 
     cv2.waitKey(0)
 
