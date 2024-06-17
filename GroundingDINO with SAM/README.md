@@ -45,8 +45,6 @@ After running the script, the segmentation results will be saved in the output d
 
 ## References
 For more details on the underlying research and model architecture, refer to the respective research papers on Grounding DINO and SAM.
-**Grounding Dino:** 
 - https://arxiv.org/abs/2303.05499
 - https://github.com/IDEA-Research/GroundingDINO
-**SAM:**
 - https://github.com/facebookresearch/segment-anything?tab=readme-ov-file
