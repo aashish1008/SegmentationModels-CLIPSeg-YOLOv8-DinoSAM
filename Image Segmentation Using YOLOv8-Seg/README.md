@@ -18,7 +18,7 @@ To set up YOLOv8-Seg, follow these steps:
   It's recommended to use a virtual environment. You can set up a virtual environment using venv or conda.
   For `conda`:
     ``` bash
-    conda create --name yolov8_seg python=3.8
+    conda create --name yolov8_seg python=3.10
     conda activate yolov8_seg
     pip install -r requirements.txt 
 
