@@ -21,7 +21,7 @@ YOLOv8-Segmentation Model enhances YOLO architecture to perform pixel-level segm
 Grounding DINO with SAM integrates Grounding DINO (open-shot object detector) with SAM (Segment Anything Model) for enhanced zero-shot segmentation. It detects objects based on textual cues and generates precise segmentation masks.
 - Text-guided detection for identifying objects based on arbitrary text inputs.
 - SAM facilitates detailed segmentation mask generation for detected objects.
-- High computational demands make real-time implementation challenging, suitable primarily for offline or batch processing.
+- High computational demands make real-time implementation challenging specially for video frames.
 
 ## Repository Structure
 - `CLIPSeg/`: Implementation and experiments with CLIPSeg model.
