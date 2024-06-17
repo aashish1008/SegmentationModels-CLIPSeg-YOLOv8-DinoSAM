@@ -3,7 +3,7 @@
 #### Features
 - **Text-Guided Segmentation:** Generates segmentation masks based on textual prompts.
 - **Zero-Shot Learning:** Performs segmentation without needing extensive annotated training data.
-- ** Seamless Integration:** Bridges the gap between natural language processing and computer vision.
+- **Seamless Integration:** Bridges the gap between natural language processing and computer vision.
 #### Limitations
 - Optimized for static image segmentation and less effective for dynamic video frames.
 
@@ -30,9 +30,9 @@ To set up CLIPSeg for Image Segmentation, follow these steps:
 
 ## Uasge
 
-**1. Prepare your textual prompts and images:**
+1. **Prepare your textual prompts and images:**
   Ensure you have your textual descriptions and images ready for segmentation.
-**2. Run the segmentation script:**
+2. **Run the segmentation script:**
     ``` bash
     python zero_shot_image_segementation.py
 
