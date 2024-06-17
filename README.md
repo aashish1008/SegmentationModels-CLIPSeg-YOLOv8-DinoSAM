@@ -24,6 +24,20 @@ Grounding DINO with SAM integrates Grounding DINO (open-shot object detector) wi
 - High computational demands make real-time implementation challenging, suitable primarily for offline or batch processing.
 
 ## Repository Structure
-`CLIPSeg/`: Implementation and experiments with CLIPSeg model.
-`Image Segmentation Using YOLOv8-Seg/`: Variants and performance evaluations of YOLOv8-Seg.
-`GroundingDINO with SAM/`: Integration and experiments with Grounding DINO and SAM.
+- `CLIPSeg/`: Implementation and experiments with CLIPSeg model.
+- `Image Segmentation Using YOLOv8-Seg/`: Variants and performance evaluations of YOLOv8-Seg.
+- `GroundingDINO with SAM/`: Integration and experiments with Grounding DINO and SAM.
+
+## Getting Started
+To explore these models and reproduce experiments:
+
+1. Clone the repository:
+   ``` bash
+   git clone https://github.com/aashish1008/SegmentationModels-CLIPSeg-YOLOv8-DinoSAM.git
+   cd SegmentationModels-CLIPSeg-YOLOv8-DinoSAM
+2. Follow instructions in each model directory (`CLIPSeg/`, `Image Segmentation Using YOLOv8-Seg/`, `GroundingDINO with SAM/`) to set up dependencies and run experiments.
+3. Refer to specific README files in each directory for detailed setup and usage instructions.
+
+## Contributing
+Contributions and feedback are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
