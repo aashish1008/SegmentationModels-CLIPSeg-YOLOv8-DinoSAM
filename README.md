@@ -1,6 +1,11 @@
 # SegmentationModels-CLIPSeg-YOLOv8-DinoSAM
 Exploring Zero-Shot Model Capabilities in Image Segmentation
 
+Watch the demo on YouTube
+https://youtu.be/28ZZTCqmSQU
+
+I have also written a blog about this model. If you're interested, you can read it here:
+https://medium.com/@aashishstha34/zero-shot-image-segmentation-from-clipseg-to-yolov8-seg-vs-grounding-dino-with-sam-83706cb601a6
 ## Models Explored
 
 ### CLIPSeg
