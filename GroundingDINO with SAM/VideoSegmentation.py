@@ -125,7 +125,7 @@ class VideoSegmentation:
                 detection_with_mask = self.draw_mask(mask, np.array(detection_with_mask))
         return detection_with_mask
 
-    def video_segmentation(self, video_path, caption, box_threshold, text_threshold):
+    def run(self, video_path, caption, box_threshold, text_threshold):
         cap = cv2.VideoCapture(video_path)
 
         # Get video properties
@@ -159,7 +159,7 @@ class VideoSegmentation:
         box_threshold = 0.35
         text_threshold = 0.25
         video_segmentation = VideoSegmentation()
-        video_segmentation.video_segmentation(video_path, caption, box_threshold, text_threshold)
+        video_segmentation.run(video_path, caption, box_threshold, text_threshold)
 
 
 # Entry point
